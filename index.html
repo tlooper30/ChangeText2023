@@ -6,7 +6,7 @@
 <body>
 
 
-  
+  <!--First set-->
   <h1 id="myHeading">Hello World</h1>
   <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
   <img id="myImage" src=image3.png alt="Default Image" width="300">
@@ -16,7 +16,19 @@
   <button onclick="changeHeading2()">Change Heading 2</button>
   <button onclick="changeImage1()">Change Image 1</button>
   <button onclick="changeImage2()">Change Image 2</button>
+
+  <!--Second set-->
+  <h1 id="header">Hello</h1>
+  <p id="paragraph">This is a paragraph</p>
+  <img id="img" src=https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg height=200 alt=monkey>
+  <button onclick="Goodbye()">Goodbye</button>
+  <button onclick="Hello()">Hello</button>
+  <button onclick="Para()">Para</button>
+  <button onclick="Graph()">Graph</button>
+  <button onclick="Mokey()">MonKey</button>
+  <button onclick="Baby()">BabY</button>
   <script>
+    //First set
     function changeParagraph1() {
       document.getElementById("myParagraph").innerHTML = "This is paragraph **************@hilliardschools,org.";
     }
@@ -40,7 +52,27 @@
     function changeImage2() {
       document.getElementById("myImage").src = "image2.png";
     }
- 
+
+    //Second set
+    function Goodbye() {
+      document.getElementById("header").innerHTML = "Goodbye";
+    }
+    function Hello() {
+      document.getElementById("header").innerHTML = "Hello";
+    }
+    function Para() {
+      document.getElementById("paragraph").innerHTML = "This is a graph";
+    }
+    function Graph() {
+      document.getElementById("paragraph").innerHTML = "This is a para";
+    }
+    function Monkey() {
+      document.getElementById("img").src = "https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg";
+    }
+    function Baby() {
+      document.getElementById("img").src = "https://thumbs.dreamstime.com/b/funny-face-baby-27701492.jpg";
+    }
+
   </script>
   <h1>ChangeText2023</h1>
   <p>This is a paragraph.</p>
