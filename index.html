@@ -6,7 +6,7 @@
 <body>
 
 
-  
+  <!--First set-->
   <h1 id="myHeading">Hello World</h1>
   <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
   <img id="myImage" src=image3.png alt="Default Image" width="300">
@@ -17,7 +17,21 @@
   <button onclick="changeImage1()">Change Image 1</button>
   <button onclick="changeImage2()">Change Image 2</button>
   <button onclick="imDifferent()">PLEASE HELP</button>
+
+
+  <!--Second set-->
+  <h1 id="header">Hello</h1>
+  <p id="paragraph">This is a paragraph</p>
+  <img id="img" src=https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg height=200 alt=monkey>
+  <button onclick="Goodbye()">Goodbye</button>
+  <button onclick="Hello()">Hello</button>
+  <button onclick="Para()">Para</button>
+  <button onclick="Graph()">Graph</button>
+  <button onclick="Mokey()">MonKey</button>
+  <button onclick="Baby()">BabY</button>
+
   <script>
+    //First set
     function changeParagraph1() {
       document.getElementById("myParagraph").innerHTML = "This is paragraph **************@hilliardschools,org.";
     }
@@ -41,14 +55,94 @@
     function changeImage2() {
       document.getElementById("myImage").src = "image2.png";
     }
+
     function imDifferent() {
       document.getElementById("myParagraph").src = "PLEASE HELP ME IM STUCK IN A WEBSITE AND I CANT LEAVE!!!!!";
     }
+
+
+    //Second set
+    function Goodbye() {
+      document.getElementById("header").innerHTML = "Goodbye";
+    }
+    function Hello() {
+      document.getElementById("header").innerHTML = "Hello";
+    }
+    function Para() {
+      document.getElementById("paragraph").innerHTML = "This is a graph";
+    }
+    function Graph() {
+      document.getElementById("paragraph").innerHTML = "This is a para";
+    }
+    function Monkey() {
+      document.getElementById("img").src = "https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg";
+    }
+    function Baby() {
+      document.getElementById("img").src = "https://thumbs.dreamstime.com/b/funny-face-baby-27701492.jpg";
+    }
+
+
   </script>
   <h1>ChangeText2023</h1>
   <p>This is a paragraph.</p>
 
+
+  <h1 id="live"> </h1>
+  <p id="explan"></p>
+
+  <button type="button" onclick='document.getElementById("live").innerHTML = "how to live"'>Click Me 1</button>
+  <button type="button" onclick='document.getElementById("explan").innerHTML = "you need to be alive"'>explanation</button>
+  <button type="button" onclick='document.getElementById("live").innerHTML = "how to jump"'>Click Me 2</button>
+  <button type="button" onclick='document.getElementById("explan").innerHTML = "bend legs then push legs up"'>explanation 2</button>
+
+  <h1 id="title">Title</h1>
+  <h2 id="subtitle">Subtitle</h2></h2>
+  <p id="p1">This is a paragraph</p>
+  <p id="p2">This is another paragraph</p>
+  <img src="https://www.hilliardschools.org/bradleyjaguars/wp-content/themes/athletics-hbr-child/images/HBR_Athletic_Banner_HBR.png" alt="Bradley logo" width=100px id="image">
+  <button type="button" onclick='document.getElementById("title").innerHTML = "Better Title"'>Change title</button>
+  <button type="button" onclick='document.getElementById("subtitle").innerHTML = "Better Subtitle"'>Change subtitle</button>
+  <button type="button" onclick='document.getElementById("p1").innerHTML = "This is a different paragraph"'>Change first paragraph</button>
+  <button type="button" onclick='document.getElementById("p2").innerHTML = "This is another different paragraph"'>Change second paragraph</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://pbs.twimg.com/media/Egm_sY1WoAIBSap.jpg"'>Change image</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://i1.sndcdn.com/artworks-aY91yzpmZsoOGRhv-0trzOg-t500x500.jpg"'>SODA</button>
+
+  <h1 id= "header">
+    Welcome to Game Design and App Development!
+  </h1>
+  <p id= "message">
+    Welcome to this website
+  </p>
+  <img id="image" src= "computer_image.png" alt="image of computer" width=200>
+  <br>
+  <!-- Headers -->
+  <button onclick= "document.getElementById('header').innerHTML= 'Welcome to Computer Science Principles!'"> Header 1 </button>
+  <button onclick= "document.getElementById('header').innerHTML= 'Welcome to Computer Science A'"> Header 2 </button>
+  <!-- paragraphs -->
+  <br>
+  <button onclick= "document.getElementById('message').innerHTML= 'Hello World'"> Paragraph 1</button>
+  <button onclick= "document.getElementById('message').innerHTML= 'Hello User'"> Paragraph 2</button>
+  <!-- Images -->
+  <br>
+  <button onclick="document.getElementById('image').src='computer_drawing.jpg'"> Image 1</button>
+  <button onclick="document.getElementById('image').src='laptop_image.jfif'"> Image 2</button>
+
+
+
   
+  <h1 id="Heading">Hello World 1</h1>
+  
+  <p id="Paragraph">Hello World 2</p>
+
+  <button onclick="document.getElementById('Heading').innerHTML = 'Hello World 3'">Change Heading</button>
+  
+  <button onclick="document.getElementById('Heading').innerHTML = 'Hello World 1'">Return Heading</button>
+  
+  <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 4'">Change Paragraph</button>
+
+
+  
+  <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 2'">Return Paragraph</button>
 
 </body>
 </html>
