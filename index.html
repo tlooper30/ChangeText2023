@@ -8,7 +8,7 @@
 
   
   <h1 id="myHeading">Hello World</h1>
- <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+  <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
   <img id="myImage" src=image3.png alt="Default Image" width="300">
   <button onclick="changeParagraph1()">Change Paragraph 1</button>
   <button onclick="changeParagraph2()">Change Paragraph 2</button>
@@ -44,7 +44,20 @@
   <h1>ChangeText2023</h1>
   <p>This is a paragraph.</p>
 
-<h1 id= "header">
+
+  <h1 id="title">Title</h1>
+  <h2 id="subtitle">Subtitle</h2></h2>
+  <p id="p1">This is a paragraph</p>
+  <p id="p2">This is another paragraph</p>
+  <img src="https://www.hilliardschools.org/bradleyjaguars/wp-content/themes/athletics-hbr-child/images/HBR_Athletic_Banner_HBR.png" alt="Bradley logo" width=100px id="image">
+  <button type="button" onclick='document.getElementById("title").innerHTML = "Better Title"'>Change title</button>
+  <button type="button" onclick='document.getElementById("subtitle").innerHTML = "Better Subtitle"'>Change subtitle</button>
+  <button type="button" onclick='document.getElementById("p1").innerHTML = "This is a different paragraph"'>Change first paragraph</button>
+  <button type="button" onclick='document.getElementById("p2").innerHTML = "This is another different paragraph"'>Change second paragraph</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://pbs.twimg.com/media/Egm_sY1WoAIBSap.jpg"'>Change image</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://i1.sndcdn.com/artworks-aY91yzpmZsoOGRhv-0trzOg-t500x500.jpg"'>SODA</button>
+
+  <h1 id= "header">
     Welcome to Game Design and App Development!
   </h1>
   <p id= "message">
@@ -76,6 +89,7 @@
   <button onclick="document.getElementById('Heading').innerHTML = 'Hello World 1'">Return Heading</button>
   
   <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 4'">Change Paragraph</button>
+
 
   
   <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 2'">Return Paragraph</button>
