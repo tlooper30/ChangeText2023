@@ -5,6 +5,7 @@
 </head>
 <body>
 
+
 <h1 id="hello"> Nick Chubb is the goat </h1>
 
 
@@ -23,9 +24,71 @@
 
   
   <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello!"'>Click Me!</button>
+
+<h1 id="heading1">Game Design and App Development.</h1>
+
+  <p id="paragraph1">Game design and app development is a combination of the creative processes of analyzing the objectives.</p>
+
+  <button type="button" onclick='document.getElementById("heading1").innerHTML = "This Is JavaScript!"'>Click Me To Change The Heading!</button>
+
+  <button type="button" onclick='document.getElementById("paragraph1").innerHTML = "JavaScript is a cross platform object oriented programming language used by developers to make web pages interactive."'>Click Me To Change The Text!</button>
+
+  <button type="button" onclick='document.getElementById("heading1").innerHTML = "Game Design and App Development"'>Click Me To Revert The Title!</button>
+
+  <button type="button" onclick='document.getElementById("paragraph1").innerHTML = "Game design and app development is a combination of the creative processes of analyzing the objectives."''>Click Me To Revert The Text!</button>
+
   
+  <h1 id="heading"> Hello World</h1>
+
+  <p id="p1">Hello World!</p>
+
+  <button type="button" onclick='document.getElementById("heading").innerHTML = "Goodbye!"'>Click Me!</button>
+  <button type="button" onclick='document.getElementById("heading").innerHTML = "Hello!"'>Click Me!</button>
+  <button type="button" onclick='document.getElementById("p1").innerHTML = "This is different!"'>Click Me!</button>
+  <button type="button" onclick='document.getElementById("p1").innerHTML = "Now back to normal!"'>Click Me!</button>
+
+<h1 id="demo">Video games are fun to play. Video games are easy to learn. I like using I like playing video games.</h1>
+
+  <button type="button"
+    onclick="document.getElementById('demo').innerHTML = 'I went to GameStop to buy GTA V. GTA V is very fun. GTA V is an amazing video game.'">Click
+    Here</button>
+
+ <button type="button"
+    onclick="document.getElementById('demo').innerHTML = 'I like working out. Working out builds mucle and burns calories. Working out makes yourbody healty.'">Click
+    Here</button>
+  
+    <h1 id="Hi" >Hello</h1>
+  <p id="Day" >Good morning</p>
+
+  <img src="Morning.png" height="400" id="Image"> <br>
+  
+  <button type="button" onclick='document.getElementById("Hi").innerHTML = "Bye"; '>Click Me!</button>
+
+  <button type="button" onclick='document.getElementById("Hi").innerHTML = "See You"; '>Click Me 2!</button> <br>
+
+  <button type="button" onclick='document.getElementById("Day").innerHTML = "Good night"; '>Click You!</button>
+
+  <button type="button" onclick='document.getElementById("Day").innerHTML = "Good Afternoon"; '>Click You 2!</button> <br>
+
+  <button onclick="document.getElementById('Image').src='Night.jpg'; ">Click He/She/It</button>
+
+  <button onclick="document.getElementById('Image').src='Afternoon.jpg'; ">Click He/She/It 2</button>
+  <p id="demo2">JavaScript is a great coding language. JavaScript is easy to learn. I like using JavaScript.</p>
+
+  <button type="button"
+    onclick="document.getElementById('demo2').innerHTML = 'I like to code. Coding is fun. Coding is easy to learn'">Click
+    Here</button>
+
+  <button type="button"
+    onclick="document.getElementById('demo2').innerHTML = 'I like watching anime. I like watching One Piece. Watching anime is fun.'">Click
+    Here</button>
+
+
+
+
+  <!--First set-->
   <h1 id="myHeading">Hello World</h1>
- <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+  <p id="myParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
   <img id="myImage" src=image3.png alt="Default Image" width="300">
   <button onclick="changeParagraph1()">Change Paragraph 1</button>
   <button onclick="changeParagraph2()">Change Paragraph 2</button>
@@ -33,7 +96,22 @@
   <button onclick="changeHeading2()">Change Heading 2</button>
   <button onclick="changeImage1()">Change Image 1</button>
   <button onclick="changeImage2()">Change Image 2</button>
+  <button onclick="imDifferent()">PLEASE HELP</button>
+
+
+  <!--Second set-->
+  <h1 id="header">Hello</h1>
+  <p id="paragraph">This is a paragraph</p>
+  <img id="img" src=https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg height=200 alt=monkey>
+  <button onclick="Goodbye()">Goodbye</button>
+  <button onclick="Hello()">Hello</button>
+  <button onclick="Para()">Para</button>
+  <button onclick="Graph()">Graph</button>
+  <button onclick="Mokey()">MonKey</button>
+  <button onclick="Baby()">BabY</button>
+
   <script>
+    //First set
     function changeParagraph1() {
       document.getElementById("myParagraph").innerHTML = "This is paragraph **************@hilliardschools,org.";
     }
@@ -57,11 +135,94 @@
     function changeImage2() {
       document.getElementById("myImage").src = "image2.png";
     }
+
+    function imDifferent() {
+      document.getElementById("myParagraph").src = "PLEASE HELP ME IM STUCK IN A WEBSITE AND I CANT LEAVE!!!!!";
+    }
+
+
+    //Second set
+    function Goodbye() {
+      document.getElementById("header").innerHTML = "Goodbye";
+    }
+    function Hello() {
+      document.getElementById("header").innerHTML = "Hello";
+    }
+    function Para() {
+      document.getElementById("paragraph").innerHTML = "This is a graph";
+    }
+    function Graph() {
+      document.getElementById("paragraph").innerHTML = "This is a para";
+    }
+    function Monkey() {
+      document.getElementById("img").src = "https://t4.ftcdn.net/jpg/05/68/56/53/360_F_568565340_r0tnHuiWOrgWi7ihue8ZTeIVFsP7lc5L.jpg";
+    }
+    function Baby() {
+      document.getElementById("img").src = "https://thumbs.dreamstime.com/b/funny-face-baby-27701492.jpg";
+    }
+
+
   </script>
   <h1>ChangeText2023</h1>
   <p>This is a paragraph.</p>
 
+
+  <h1 id="live"> </h1>
+  <p id="explan"></p>
+
+  <button type="button" onclick='document.getElementById("live").innerHTML = "how to live"'>Click Me 1</button>
+  <button type="button" onclick='document.getElementById("explan").innerHTML = "you need to be alive"'>explanation</button>
+  <button type="button" onclick='document.getElementById("live").innerHTML = "how to jump"'>Click Me 2</button>
+  <button type="button" onclick='document.getElementById("explan").innerHTML = "bend legs then push legs up"'>explanation 2</button>
+
+  <h1 id="title">Title</h1>
+  <h2 id="subtitle">Subtitle</h2></h2>
+  <p id="p1">This is a paragraph</p>
+  <p id="p2">This is another paragraph</p>
+  <img src="https://www.hilliardschools.org/bradleyjaguars/wp-content/themes/athletics-hbr-child/images/HBR_Athletic_Banner_HBR.png" alt="Bradley logo" width=100px id="image">
+  <button type="button" onclick='document.getElementById("title").innerHTML = "Better Title"'>Change title</button>
+  <button type="button" onclick='document.getElementById("subtitle").innerHTML = "Better Subtitle"'>Change subtitle</button>
+  <button type="button" onclick='document.getElementById("p1").innerHTML = "This is a different paragraph"'>Change first paragraph</button>
+  <button type="button" onclick='document.getElementById("p2").innerHTML = "This is another different paragraph"'>Change second paragraph</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://pbs.twimg.com/media/Egm_sY1WoAIBSap.jpg"'>Change image</button>
+  <button type="button" onclick='document.getElementById("image").src = "https://i1.sndcdn.com/artworks-aY91yzpmZsoOGRhv-0trzOg-t500x500.jpg"'>SODA</button>
+
+  <h1 id= "header">
+    Welcome to Game Design and App Development!
+  </h1>
+  <p id= "message">
+    Welcome to this website
+  </p>
+  <img id="image" src= "computer_image.png" alt="image of computer" width=200>
+  <br>
+  <!-- Headers -->
+  <button onclick= "document.getElementById('header').innerHTML= 'Welcome to Computer Science Principles!'"> Header 1 </button>
+  <button onclick= "document.getElementById('header').innerHTML= 'Welcome to Computer Science A'"> Header 2 </button>
+  <!-- paragraphs -->
+  <br>
+  <button onclick= "document.getElementById('message').innerHTML= 'Hello World'"> Paragraph 1</button>
+  <button onclick= "document.getElementById('message').innerHTML= 'Hello User'"> Paragraph 2</button>
+  <!-- Images -->
+  <br>
+  <button onclick="document.getElementById('image').src='computer_drawing.jpg'"> Image 1</button>
+  <button onclick="document.getElementById('image').src='laptop_image.jfif'"> Image 2</button>
+
+
+
   
+  <h1 id="Heading">Hello World 1</h1>
+  
+  <p id="Paragraph">Hello World 2</p>
+
+  <button onclick="document.getElementById('Heading').innerHTML = 'Hello World 3'">Change Heading</button>
+  
+  <button onclick="document.getElementById('Heading').innerHTML = 'Hello World 1'">Return Heading</button>
+  
+  <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 4'">Change Paragraph</button>
+
+
+  
+  <button onclick="document.getElementById('Paragraph').innerHTML = 'Hello World 2'">Return Paragraph</button>
 
 </body>
 </html>
