@@ -9,7 +9,24 @@
   
 <h1 id="hello"> Nick Chubb is the goat </h1>
 
+<button type="button" onclick="changeParagraphText('yoooooo')">Change Paragraph Text 1</button>
+<button type="button" onclick="changeParagraphText('this changed')">Change Paragraph Text 2</button>
 
+<button type="button" onclick="changeHeadingText('this changed too')">Change Heading Text 1</button>
+<button type="button" onclick="changeHeadingText('quit that')">Change Heading Text 2</button>
+
+<p id="paragraph">Initial text</p>
+<h1 id="heading">Initial heading</h1>
+
+<script>
+function changeParagraphText(text) {
+  document.getElementById("paragraph").innerText = text;
+}
+
+function changeHeadingText(text) {
+  document.getElementById("heading").innerText = text;
+}
+</script>
 
 
 
